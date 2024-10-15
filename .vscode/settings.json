@@ -1,0 +1,13 @@
+{
+  "[uiua]": {
+    "editor.defaultFormatter": "uiua-lang.uiua-vscode",
+    "editor.formatOnSave": true,
+    "editor.fontLigatures": false,
+    "editor.fontFamily": "Uiua386",
+    "editor.fontSize": 16,
+  },
+  "uiua.inlayHints.values": true,
+  "uiua.inlayHints.bindingSignatureHints": false,
+  "uiua.inlayHints.inlineSignatureHints": false,
+  "uiua.semanticHighlighting.customTokenTypes": false,
+}
