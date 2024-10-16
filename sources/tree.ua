@@ -16,23 +16,23 @@ Tree₀ ← {"a" "b" "c" "d" "e" "f" "g"}
 # ..f
 # ..g
 
-# Get Tree₀ 0
-# Get Tree₀ 1
-# Get Tree₀ Left 0
-# Get Tree₀ Right 0
-# Get Tree₀ Left Left 0
-# Get Tree₀ Right Left 0
-# Get Tree₀ Parent Left 0
-# Get Tree₀ Parent Right 0
-# Get Tree₀ Parent Parent Left Left 0
-# Get Tree₀ Parent Parent Right Right 0
+Get Tree₀ 0
+Get Tree₀ 1
+Get Tree₀ Left 0
+Get Tree₀ Right 0
+Get Tree₀ Left Left 0
+Get Tree₀ Right Left 0
+Get Tree₀ Parent Left 0
+Get Tree₀ Parent Right 0
+Get Tree₀ Parent Parent Left Left 0
+Get Tree₀ Parent Parent Right Right 0
 
 ┌─╴test
   ⍤⤙≍ {"a" "b" "c" "d" "e" "f" "g"} Tree₀
   ⍤⤙≍ {"a" "x" "c" "d" "e" "f" "g"} Set Tree₀ Left 0 "x"
 └─╴
 
-# preorder, postorder, inorder (all dfs), levelorder (is bfs).
+# preorder, postorder, inorder (all dfs), levelorder (bfs).
 
 Visit ← |1 (
   # ? index
@@ -54,4 +54,4 @@ Preorder ← |2 (
 )
 
 ⇌ Preorder 0 {}
-### {"a" "b" "d" "e" "c" "f" "g"} 
+## {"a" "b" "d" "e" "c" "f" "g"} 

@@ -1,5 +1,11 @@
 # uiua-playground
 
+run uiua watcher.
+
+```shell
+❯ uiua watch --no-color
+```
+
 install uiua interpreter.
 
 ```shell
